@@ -1,3 +1,71 @@
+# MyOKR - Client Application
+
+This is the React frontend for the MyOKR application.
+
+## 🚀 Firebase Hosting Deployment
+
+### Prerequisites
+- Node.js installed
+- Firebase CLI installed: `npm install -g firebase-tools`
+
+### Quick Deploy
+```bash
+# Install dependencies
+npm install
+
+# Deploy to Firebase (builds and deploys)
+npm run deploy
+
+# Or deploy only hosting
+npm run deploy:hosting
+```
+
+### Manual Deploy Steps
+```bash
+# 1. Login to Firebase
+firebase login
+
+# 2. Initialize Firebase (if not already done)
+firebase init hosting
+
+# 3. Build the app
+npm run build
+
+# 4. Deploy
+firebase deploy
+```
+
+### Firebase Configuration
+- **Project ID**: my-okr-9ef5a
+- **Public Directory**: build
+- **Single Page App**: Yes (handles React Router)
+
+## 📁 Project Structure
+```
+client/
+├── public/          # Static files
+├── src/             # React source code
+├── firebase.json    # Firebase hosting config
+├── .firebaserc      # Firebase project config
+└── package.json     # Dependencies and scripts
+```
+
+## 🌐 Live URL
+After deployment, your app will be available at:
+`https://my-okr-9ef5a.web.app`
+
+## 🔧 Development
+```bash
+# Start development server
+npm start
+
+# Build for production
+npm run build
+
+# Run tests
+npm test
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
