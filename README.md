@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MyOKR - OKR Management Application
 
 A modern OKR (Objectives and Key Results) management application built with React, Firebase, and Node.js. This application helps organizations, departments, teams, and users track and manage their objectives effectively.
@@ -192,3 +193,6 @@ Created for ABEX Full Stack Developer Intern position.
 ---
 
 **Note**: This application demonstrates modern web development practices using React and Firebase, suitable for internship assessments and learning purposes. 
+=======
+# my-okr-manager
+>>>>>>> 1e71d59f795d1c4f0ff80ea76f7b464664bbc8c5
